@@ -22,31 +22,31 @@ class EnRelativeTime extends RelativeTime {
   @override
   String prefixFromNow() => 'in';
   @override
-  String suffixAgo() => 'ago';
+  String suffixAgo() => '';
   @override
   String suffixFromNow() => '';
   @override
-  String lessThanOneMinute(int seconds) => 'a few seconds';
+  String lessThanOneMinute(int seconds) => 'just now';
   @override
-  String aboutAMinute(int minutes) => 'a minute';
+  String aboutAMinute(int minutes) => '1m';
   @override
-  String minutes(int minutes) => '$minutes minutes';
+  String minutes(int minutes) => '${minutes}m';
   @override
-  String aboutAnHour(int minutes) => 'an hour';
+  String aboutAnHour(int minutes) => '1h';
   @override
-  String hours(int hours) => '$hours hours';
+  String hours(int hours) => '${hours}h';
   @override
-  String aDay(int hours) => 'a day';
+  String aDay(int hours) => '1d';
   @override
-  String days(int days) => '$days days';
+  String days(int days) => '${days}d';
   @override
-  String aboutAMonth(int days) => 'a month';
+  String aboutAMonth(int days) => '1m';
   @override
-  String months(int months) => '$months months';
+  String months(int months) => '${months}m';
   @override
-  String aboutAYear(int year) => 'a year';
+  String aboutAYear(int year) => '1y';
   @override
-  String years(int years) => '$years years';
+  String years(int years) => '${years}y';
   @override
   String wordSeparator() => ' ';
 }
