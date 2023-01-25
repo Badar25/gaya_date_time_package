@@ -40,13 +40,13 @@ class EnRelativeTime extends RelativeTime {
   @override
   String days(int days) => '${days}d';
   @override
-  String aboutAMonth(int days) => '1M';
+  String aboutAMonth(int days) => '1mo';
   @override
-  String months(int months) => '${months}M';
+  String months(int months) => '${months}mo';
   @override
-  String aboutAYear(int year) => '1Y';
+  String aboutAYear(int year) => '1y';
   @override
-  String years(int years) => '${years}Y';
+  String years(int years) => '${years}y';
   @override
   String wordSeparator() => ' ';
 }
