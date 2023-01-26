@@ -20,7 +20,7 @@ class EnRelativeTime extends RelativeTime {
   @override
   String prefixAgo() => '';
   @override
-  String prefixFromNow() => 'in';
+  String prefixFromNow() => '';
   @override
   String suffixAgo() => '';
   @override
